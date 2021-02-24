@@ -1,0 +1,27 @@
+html{
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+body{
+    font: 1.6rem;
+    height: 100vh;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1rem;
+}
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: header;
+}
+.footer{
+    grid-area: header;
+}
